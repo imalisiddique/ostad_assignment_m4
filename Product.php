@@ -14,14 +14,18 @@ class Product {
     }
 
     // TODO: Add getFormattedPrice method
-    public function getFormattedPrice() {}
+    public function getFormattedPrice() {
+
+    }
 
     // TODO: Add showDetails method
-    public function showDetails() {}
+    public function showDetails() {
+        echo "Product Details: \n- ID: $this->id \n- Name: $this->name \n- Price: $this->price";
+    }
 }
 
 // Test the Product class
 
 $product = new Product( 1, 'T-shirt', 19.99 );
 $product->showDetails();
-print_r( $product );
+// print_r( $product );
