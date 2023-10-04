@@ -6,7 +6,7 @@ class Product {
     public $name;
     public $price;
 
-    public function __construct( $id, $name, $price ) {
+    public function __construct( int $id, string $name, float $price ) {
         // Initialize properties
         $this->id = $id;
         $this->name = $name;
